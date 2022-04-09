@@ -180,7 +180,7 @@ nav ul{
             align-items: center;
             margin-top: 50px;
             margin-bottom: 15px;
-            background-color: palevioletred; padding: 20px;
+            background-color: rgb(230, 138, 194); padding: 20px;
 }
 .placeTittle h1{
             font-size: 30px;
@@ -277,7 +277,7 @@ nav ul{
     justify-content: center;
     margin-top: 60px;
     margin-bottom: 15px;
-    background-color: palevioletred; padding: 20px
+    background-color: rgb(230, 138, 194); padding: 20px
 
 }
 .am {
@@ -419,7 +419,7 @@ width: 500px;
            justify-content: center;
            align-items: center;
            margin-top: 50px;
-           background-color: palevioletred; padding: 23px;
+           background-color: rgb(230, 138, 194); padding: 23px;
 }
 .preciosTitulo h1{
            font-size:35px ;
@@ -535,7 +535,7 @@ form input{
 }
 
 body {
-    background-image: linear-gradient(to right, rgb(240, 182, 209) 40%, rgb(235, 145, 183), rgb(243, 132, 197));
+    background-image: linear-gradient(to right,rgb(228, 155, 206),  rgb(236, 190, 223) 40%, rgb(241, 233, 187), rgb(245, 166, 205));
     font-family: 'Bona Nova', serif;
 }
 

@@ -97,6 +97,7 @@ nav ul{
 }
 
 
+
 .tituloGaleria{
     display: flex;
     justify-content: center;
@@ -208,11 +209,6 @@ nav ul{
         justify-content: space-evenly;
         align-items: center;
         margin-top: 100px;
-}
-.lugarFotos img {
-    border-color: rgb(247, 162, 214);
-    border-style: solid; 
-    border-width: 4px;
 }
 
 .productosLugar{

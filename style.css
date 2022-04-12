@@ -136,6 +136,9 @@
         
         margin-top: 10px; 
     }
+    .nav-link {
+        background-color: rgba(255, 255, 255, 0);
+    }
 }
 
 @media screen and (max-width: 479px) {
@@ -503,6 +506,9 @@ body {
 .pieDePagina p{
     font-size: 20px
 }
+.pieDePagina ul{
+    padding-left: 0rem;
+}
 
 .pieDePagina ul li h2{
     text-decoration: none;
@@ -516,6 +522,10 @@ body {
     color: black;
     font-weight: 900;
 }
+.pieDePagina ul li{
+    list-style: none;
+}
+
 
 
 

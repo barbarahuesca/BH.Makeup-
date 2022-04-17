@@ -47,7 +47,7 @@
     display: flex;
     align-items:center;
     width: 95%;
-    padding-left: 25PX;
+
     margin-top: 30px;    
 }
 
@@ -128,12 +128,11 @@
     .mainContainer img{
         width: 300px;
         height: 300px;
+        padding: 0;
 
     }
     .galeria{
-       
         grid-template-columns: 1fr 1fr 1fr;
-        
         margin-top: 10px; 
     }
     .nav-link {
@@ -233,8 +232,6 @@
    .productosLugar{
        font-size: medium;
    }
-
-
 }
 
 @media screen and (max-width:479px){
@@ -245,8 +242,6 @@
     .productosLugar{
         font-size: small;
     }
-
-
 }
 .amTitulo{
     display: flex;
@@ -260,12 +255,11 @@
 }
 .am {
     display: flex;
-    justify-content:flex-end;
+    justify-content: center;
     align-items:center;
-    width: 1300px;
-    padding-left: 25PX;
-    height: 450px;
-    margin-top: 70px;  
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 .am img {
@@ -275,15 +269,12 @@
        border-width: 3px;
 }
 .am h2{
-    position: relative;
-    margin-inline-start: 20px;
     margin-right: 30px;
     font-size: 23px;
     padding: 40px; 
-    margin-top: 0px;
 }
 .am p{
-    position: relative;
+
     margin-inline-start: 20px;
     margin-right: 30px;
     margin-bottom: 100px;
@@ -293,20 +284,23 @@
 .tiposDeClases{
     display: flex;
     justify-content: center;
-    margin: 30px;
     padding: 15px;
     background-color: rgb(245, 157, 216);
     font-style: oblique;
+    margin-top: 30px;
+}
+.clases {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .social {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: left;
-margin-left: 80px;
-margin-top: 50px;
-width: 500px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-left: 80px;
+ margin-top: 50px;
 }
 
 .social h3{
@@ -314,83 +308,145 @@ width: 500px;
     margin-bottom: 20px;
     font-size: 24px;
     font-style: oblique;
-    display: inline;
-    width:200px;
     padding: 10px;
     
 }
 
 .social p{
      margin-top: 15px;
-     position: relative;
-     position: center;
-
+     width: 90%;
 }
 
 .artistico {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
-    margin-left: 80px;
     margin-top: 50px;
-    width: 500px;
-    }
-    
-.artistico h3{
-    margin-left: 50px;
-    font-size: 24px;
-    font-style: oblique;
-    display: inline;
-    width:300px;
-    padding: 20px;
 }
     
-    .artistico p{
+.artistico h3{
+    font-style: oblique;
+}  
+.artistico p{
          margin-top: 15px;
-         position: relative;
-         position: center;
-    
-    }
+         width: 90%;
+}
 
-.clases {
+.artistico img{
+    margin-top: 20px;
+}
+
+.materialSoporte{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+
+.matSopVideos{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 100px
-}
-
-.materialSoporte h3{
-    position: relative;
-    left: 20px;
-    font-size: 28px;
-    margin-bottom: 15px;
-}
-.materialSoporte p {
-    font-size: 17px;
-    margin-bottom: 10px;
-    margin-left: 7px;
-}
-.materialSoporte img{
-       padding: 30px;
+    width: 100%;
 }
 .matSopSoc {
      display: flex;
      flex-direction: column;
      justify-content: center;
-     align-items: flex-start;
+     align-items: center;
+     width: 90%;
+     margin-top: 15px;
+}
+.matSopSoc p{
+    width: 80%;
+}
+.matSopArt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 15px;
+}
+.matSopArt p{
+    width: 85%;
 }
 
-.matSopVideos{
-         display: flex;
-         justify-content: space-evenly;
-         align-items: center;
-}
-,.matSopVideos p{
-        position: relative;
-        width: 30px;
 
+@media screen and (max-width:479px){
+    .am{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .amConsiste{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .amConsiste p{
+        font-size: 13px;
+    }
+    .amConsiste h2{
+        padding: 0;
+    }
+    .am img {
+        width: 80%;
+        margin-left: 40px;
+    }
+    .clases{
+        flex-direction: column;
+    }
+    .materialSoporte{
+        flex-direction: column;
+       
+    }
+    .matSopVideos{
+        flex-direction: column;
+    }
+    .matSopVideos img{
+        width: 90%;
+        height: 90%;
+    }
+    .clases .social{
+        align-items: center;
+        margin-left: 10px;
+    }
+    .clases .social img{
+        width: 70%;
+        height: 60%;
+    }
+    .clases .social p {
+        font-size: 14px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .clases .artistico{
+        align-items: center;
+        margin-left: 10px;
+        padding: 0px;
+    }
+    .clases .artistico img{
+        width: 80%;
+        height: 70%;
+    }
+    .clases .artistico p {
+        font-size: 14px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .materialSoporte h3{
+        font-size: 20px;
+    }
+    .materialSoporte p {
+        font-size: 12px;
+    }
 }
+    
 
 .preciosTitulo{
            display: flex;
@@ -443,6 +499,25 @@ width: 500px;
 
 }
 
+@media screen and (max-width:479px){
+    .preciosServicios p{
+        font-size: 13px;
+   }
+   .preciosServicios h3{
+           font-size: 20px;
+           font-style: oblique;
+   }
+   .prepPerson{
+       margin-left: 10px;
+   }
+   .prepPerson h2{
+       font-size: 20px;
+   }
+   .prepPerson p{
+       font-size: 13px;
+   }
+}
+
 .primeraParte p{
     font-size: 15px;
 }
@@ -474,6 +549,7 @@ width: 500px;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
+      margin-left: 10px;
 
 }
 .consultas h2{

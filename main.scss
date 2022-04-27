@@ -78,14 +78,18 @@ body {
 
 /* FOOTER SON SASS*/ 
 
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
 .pieDePagina {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 100px; 
     background-color: rgb(179, 110, 147);
-    padding: 20px;   
-    height: 180px;
+    padding: 20px; 
+    @include sizes(100%,180px);
 
     p{
         font-size: 20px 

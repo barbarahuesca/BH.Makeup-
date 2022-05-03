@@ -23,7 +23,11 @@ body {
   -webkit-text-decoration: brown;
           text-decoration: brown;
 }
-
+@media screen  and (max-width: 479px){
+  .nav-link {
+      background-color: rgba(243, 79, 156, 0);
+     }
+}
 .primeraParte p {
   font-size: 15px;
 }

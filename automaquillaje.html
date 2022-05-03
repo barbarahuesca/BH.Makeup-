@@ -15,6 +15,7 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
  />
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
@@ -43,12 +44,13 @@
        
        <div class="am">
              <div class="amFotoPrincipal"> 
-                  <img src="./imagenes/aprendiendo a maquillar.jpg">
+                <img data-aos="zoom-in-down" src="./imagenes/aprendiendo a maquillar.jpg">
              </div>
              <div class="amConsiste">
                 <h2> En que consiste?</h2>
                 <p> Las clases de Automaquillaje consisten en un curso por un periodo de cuatro meses, en los que enseñamos desde cero todas las tecnicas acerca de un buen maquillaje, comenzando por conocerse a una misma, los rasgos y el tipo de piel que una tiene, asi como tambien qué clase de productos sirven para una misma, y finalizando con maquillajes completos con multiples estilos y finalidades.
-
+                </p>
+                <p>
                 Contamos con dos tipos de Cursos: Maquillaje Social y Artistico. Como tan lo denotan sus nombres, el curso de maquillaje social esta orientado a aprender a hacer maquillajes de estilo social, como para fiestas, eventos, cumpleaños, asi como tambien un maquillaje para el dia a dia, de uso facultativo y/o laboral.
                 Por su defecto, el curso de Maquillaje Artistico, esta orientado a saber hacer maquillajes de esta indole, dandole principal foco a los colores de la paleta cromatica, como combinarlos correctamente y junto a que tecnicas pueden usarse. 
                 </p>
@@ -100,17 +102,15 @@
   </main>
   <article class="materialSoporte">
       <h3> Tambien tenemos mucho material de soporte!</h3>
-       <p> Ademas de dictar el curso de manera presencial, durante el curso se estara otorgando material de soporte de manera virtual, tanto escrita como audio-visual. Uno de los recursos con los que mas contamos, son los videos tutoriales explicativos que tenemos armados para nuestras alumnas. La idea es que ademas de las clases en el estudio, puedan desde sus casa seguir aprendiento y practicando de manera conjunta, y de esta forma poder ver un maquillaje que les gusta, saber por donde empezar, que productos utilizar, de que manera usarlos y claramente en que lugares usarlos</p>
-      <p> Queremos hacer todo lo posible para que aprendan mucho, y ademas que puedan disfrutar de este increible curso en el cual se aprende un monton.</p>
+       <p class="materialSoporte_text"> Ademas de dictar el curso de manera presencial, durante el curso se estara otorgando material de soporte de manera virtual, tanto escrita como audio-visual. Uno de los recursos con los que mas contamos, son los videos tutoriales explicativos que tenemos armados para nuestras alumnas. La idea es que ademas de las clases en el estudio, puedan desde sus casa seguir aprendiento y practicando de manera conjunta, y de esta forma poder ver un maquillaje que les gusta, saber por donde empezar, que productos utilizar, de que manera usarlos y claramente en que lugares usarlos</p>
+      <p class="materialSoporte_text"> Queremos hacer todo lo posible para que aprendan mucho, y ademas que puedan disfrutar de este increible curso en el cual se aprende un monton.</p>
       <div class="matSopVideos">
         <div class="matSopSoc">
-              <p> Si queres saber como lograr un maquillaje social, hace click en el enlace de abajo!</p>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/klXwGZ5iNaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="500" height="300" src="https://www.youtube.com/embed/klXwGZ5iNaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div class="matSopArt"> 
-          <p> Si queres saber como lograr un maquillaje social, hace click en el enlace de abajo!</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/KH-kVuu_fp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="500" height="300" src="https://www.youtube.com/embed/KH-kVuu_fp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          </div>
      </div>
     
@@ -130,6 +130,10 @@
   </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
    
 </body>
 </html>

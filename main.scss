@@ -1,3 +1,6 @@
+
+/*SECCION CONTACTO*/
+
 body {
     background-image: linear-gradient(to right,rgb(228, 155, 206),  rgb(236, 190, 223) , rgb(241, 233, 187),rgb(236, 190, 223));
     font-family: 'Bona Nova', serif;
@@ -19,13 +22,14 @@ body {
     text-decoration: brown;
 }
 
+
 .primeraParte p{
     font-size: 15px;
 }
 
 .sectionFormulario{
-    margin-left: 60px;
-    margin-right: 60px;
+    padding-left: 95px;
+    padding-right: 95px;
     
 }
 .contactoTitulo{

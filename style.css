@@ -152,6 +152,9 @@
     width: 100%;
     padding: 30px;
 }
+.firstContainer div {
+    margin-left: 10px;
+}
 .firstContainer div p {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -160,11 +163,16 @@
     margin-left: 10px;
     box-shadow: 0px 1px 20px 0px rgb(150, 57, 111)
 }
+.firstContainer iframe{
+    width: 95%;
+    height: 55%;
+}
 .lugarFotos{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         margin-top: 70px;
+        
         
 }
 .lugarFotos img{
@@ -172,22 +180,23 @@
     transition: width 0.5s, height 0.5s, transform 1s;
 }
 .lugarFotos img:hover{
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
 .productosLugar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 37%;
+    padding-left: 30% ;
+    padding-right: 30%;
     margin-top: 40px;
     margin-left: 10px;
     font-size: 16px;
     flex-wrap: wrap;
+    background-color: rgba(73, 45, 67, 0.404);
+    overflow: hidden;
     
 }
 .productosLugar p{
     font-size: 17px; 
     border-width: 2px;
+    color: white;
     
 }
 
@@ -200,7 +209,7 @@
      }
    .firstContainer img{
        width: 95%;
-       height:250px;
+       height:50%;
    }
    .firstContainer div{
        display: flex;
@@ -211,8 +220,7 @@
        margin-top: 20px;
    }
    .firstContainer div iframe{
-       width: 90%;
-       height: 200px;
+       
    }
    .lugarFotos{
        display: flex;
@@ -227,11 +235,12 @@
     margin-top: 10px;
    }
    .productosLugar{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       font-size: medium;
+      padding: 2%;
        width: 95%;
+       overflow: hidden;
+   }
+   .productosLugar p{
+       font-size: 13px;
    }
 }
 
@@ -272,7 +281,7 @@
     align-items:center;
     width: 100%;
     margin-top: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 2%;
     padding: 30px;
 }
 
@@ -296,7 +305,8 @@
     margin-bottom: 60px; 
 }
 .carousel-item img{
-    height: 550px;
+    height:100%;
+    width: 100%;
 }
 
 .materialSoporte{
@@ -342,7 +352,8 @@
         margin-left: 40px;
     }
     .carousel-item img{
-        height: 200px;
+        height: 100%;
+        width: 100%;
  
     }
     .materialSoporte h3{
@@ -402,12 +413,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(247, 217, 243, 0.322);
+    background-color: rgba(88, 53, 84, 0.322);
     padding: 1%;
     margin-bottom: 30px;
+    color: white;
 }
 .presupuestosPersonalizados p{
     width: 60%;
+    color: white;
 }
 .sectionFormulario{
     padding-left: 95px;
